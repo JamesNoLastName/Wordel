@@ -271,3 +271,7 @@ function dance_tiles(tiles) {
         }, (index * DANCE_ANIMATION_DURATION) / WORD_LENGTH);
     });
 }
+function togglePanel() {
+    const panel = document.getElementById('sidePanel');
+    panel.classList.toggle('active');
+}
