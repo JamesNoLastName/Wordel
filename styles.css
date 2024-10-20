@@ -1,6 +1,6 @@
 *, *::before, *::after {box-sizing: border-box;font-family: Arial;}
 .dashboard {
-    height: 40px;
+    height: 50px;
     width: calc(100% + 32px);
     background-color: #111112;
     border-bottom: 1px solid #424242;
